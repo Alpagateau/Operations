@@ -10,4 +10,4 @@
 1 ) Sauvegarder vos fichiers
 2 ) aller dans l'extension de git (la troisieme icone sur le coté)
 3 ) A coté de source control, cliquer sur le symbole Valider
-4 ) Appuyer sur "Save All and Commit" puis sur 
+4 ) Appuyer sur "Save All and Commit" puis sur "Yes"
