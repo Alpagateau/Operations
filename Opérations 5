@@ -4,6 +4,7 @@ from newNumb import *
 # Ce programme prend en compte les nombres négatifs et supérieurs
 
 L=[]
+t = time.monotonic()
 
 # Fonction associée à l'addition
 
@@ -100,7 +101,7 @@ def main(L):
     fois(L)
     diviser(L)
 
-main(L)
+main(L)                         # éxécution de la fonction
 M.sort()                        # pour mettre dans l'ordre
 
 
@@ -115,10 +116,10 @@ while k < len(M):
 
 print(M, len(M))
 
-# compteur de temps
+# Compteur du temps
 
-t = time.monotonic()
 print("Le programme a mis (en secondes) : ", time.monotonic() - t)
+
 
 # Demande du chemin souhaité à l'utilisateur
 
@@ -138,3 +139,4 @@ if r==1:
 
 if p==0:
     print("Ce nombre n'est pas constructible ou n'est pas compris entre 0 et 999")      # Message d'erreur 1
+
